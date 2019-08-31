@@ -1,0 +1,6 @@
+@import '~antd/dist/antd.css';
+
+.App-header {
+    font-size: calc(10px + 2vmin);
+    color:black;
+}
