@@ -1,7 +1,7 @@
 import React from "react";
 import { Table, Button } from "antd";
 import * as R from "ramda";
-import { currencyFormatter } from "../../utils/formatter";
+import { currencyFormatter } from "../../utils";
 
 const totalPriceForAll = cartItems => {
   return R.pipe(

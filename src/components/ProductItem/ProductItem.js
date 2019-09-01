@@ -1,7 +1,7 @@
 import React from "react";
 import { List, Button } from "antd";
 
-import { currencyFormatter } from "../../utils/formatter";
+import { currencyFormatter } from "../../utils";
 
 export default ({ item, addToCart }) => {
   return (
