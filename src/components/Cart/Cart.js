@@ -18,18 +18,18 @@ export default ({ cartItems, removeFromCart }) => {
       key: "name"
     },
     {
-      title: "Unit Price",
+      title: "Price",
       dataIndex: "unitPrice",
       key: "unitPrice",
       render: price => currencyFormatter(price)
     },
     {
-      title: "Amount",
+      title: "Quantity",
       dataIndex: "amount",
       key: "amount"
     },
     {
-      title: "Total Price",
+      title: "Total",
       dataIndex: "totalPrice",
       key: "totalPrice",
       render: price => currencyFormatter(price)

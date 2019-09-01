@@ -1,6 +1,16 @@
 @import '~antd/dist/antd.css';
 
-.App-header {
+.container {
+    width: 100%;
+    align-self: center;
+    margin: auto;
+}
+
+.app-header {
     font-size: calc(10px + 2vmin);
     color:black;
+}
+
+.grid-column {
+    margin-bottom: 20px;
 }

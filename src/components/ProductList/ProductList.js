@@ -8,6 +8,7 @@ export default ({ products, addToCart }) => {
     <List
       itemLayout="horizontal"
       dataSource={products}
+      bordered
       rowKey= { item => item.name}
       renderItem={item => <ProductItem item={item} addToCart={addToCart} />}
     />

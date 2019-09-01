@@ -17,7 +17,10 @@ export default ({ item, addToCart }) => {
         </Button>
       ]}
     >
-      <List.Item.Meta title={item.name} description={currencyFormatter(item.price)} />
+      <List.Item.Meta
+        title={item.name}
+        description={currencyFormatter(item.price)}
+      />
     </List.Item>
   );
 };
