@@ -6,9 +6,12 @@
     margin: auto;
 }
 
-.app-header {
-    font-size: calc(10px + 2vmin);
-    color:black;
+.logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px 24px 16px 0;
+    float: left;
 }
 
 .grid-column {
