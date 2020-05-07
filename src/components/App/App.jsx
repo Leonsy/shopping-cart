@@ -7,8 +7,8 @@ import {
 } from "react-router-dom";
 
 import MainLayout from '../../layout/MainLayout';
-import ProductList from "../../containers/ProductList";
-import Cart from "../../containers/Cart";
+import ProductPage from "../../containers/ProductPage";
+import Cart from "../../containers/CartPage";
 
 export default class App extends Component {
   render() {
@@ -17,11 +17,7 @@ export default class App extends Component {
         <MainLayout>
           <Switch>
             <Route path="/list">
-              <Row type="flex" justify="space-around">
-                <Col md={20} className="grid-column">
-                  <ProductList />
-                </Col>
-              </Row>
+              <ProductPage />
             </Route>
             <Route path="/cart">
               <Row type="flex" justify="space-around">
